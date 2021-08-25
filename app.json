@@ -1,0 +1,131 @@
+{
+  "name": "MirrorX",
+  "description": "a fork of a fork of a fork of a fork of a fork of a fork of a fork of a fork of a fork of a fork of a fork of a fork of a fork",
+  "keywords": ["bot", "telegram", "python"],
+  "repository": "https://github.com/PiracyGit/MirrorX",
+  "website": "https://github.com/PiracyGit/MirrorX",
+  "stack": "container",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "",
+      "value": "",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "",
+      "value": "",
+      "required": true
+    },
+    "DOWNLOAD_STATUS_UPDATE_INTERVAL": {
+      "description": "",
+      "value": 5,
+      "required": true
+    },
+    "AUTO_DELETE_MESSAGE_DURATION": {
+      "description": "",
+      "value": 20,
+      "required": true
+    },
+    "TELEGRAM_API": {
+      "description": "",
+      "value": "",
+      "required": true
+    },
+    "TELEGRAM_HASH": {
+      "description": "",
+      "value": "",
+      "required": true
+    },
+    "AUTHORIZED_CHATS": {
+      "description": "",
+      "value": "",
+      "required": true
+    },
+    "MAX_CONCURRENT_DOWNLOADS": {
+      "description": 4,
+      "value": "",
+      "required": true
+    },
+    "GDRIVE_FOLDER_ID": {
+      "description": "",
+      "value": "",
+      "required": true
+    },
+    "IS_TEAM_DRIVE": {
+      "description": "",
+      "value": "",
+      "required": false
+    },
+    "INDEX_URL": {
+      "description": "",
+      "value": "",
+      "required": false
+    },
+    "TOKEN_PICKLE_URL": {
+      "description": "",
+      "value": "",
+      "required": true
+    },
+    "CREDENTIALS_JSON_URL": {
+      "description": "",
+      "value": "",
+      "required": true
+    },
+    "DOWNLOAD_DIR": {
+      "description": "",
+      "value": "/app/downloads",
+      "required": true
+    },
+    "USE_SERVICE_ACCOUNTS": {
+      "description": "",
+      "value": "False",
+      "required": false
+    },
+    "UPTOBOX_TOKEN": {
+      "description": "",
+      "value": "",
+      "required": false
+    },
+    "MEGA_KEY": {
+      "description": "",
+      "value": "",
+      "required": false
+    },
+    "MEGA_USERNAME": {
+      "description": "",
+      "value": "",
+      "required": false
+    },
+    "MEGA_PASSWORD": {
+      "description": "",
+      "value": "",
+      "required": false
+    },
+    "BLOCK_MEGA_LINKS": {
+      "description": "",
+      "value": "",
+      "required": false
+    },
+    "STOP_DUPLICATE_MIRROR": {
+      "description": "",
+      "value": "",
+      "required": false
+    },
+    "SHORTENER": {
+      "description": "",
+      "value": "",
+      "required": false
+    },
+    "SHORTENER_API": {
+      "description": "",
+      "value": "",
+      "required": false
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
